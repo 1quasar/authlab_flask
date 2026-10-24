@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from flask import Flask
 from controllers.auth_controller import AuthController
+from database import init_db
 
 load_dotenv()
 
